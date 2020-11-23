@@ -1,4 +1,4 @@
-package com.cybertek.dto;
+package com.serik.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

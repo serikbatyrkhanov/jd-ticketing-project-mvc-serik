@@ -1,6 +1,6 @@
-package com.cybertek.entity;
+package com.serik.entity;
 
-import com.cybertek.enums.Gender;
+import com.serik.enums.Gender;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

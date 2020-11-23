@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringMVC-ProjectManagement.iml" filepath="$PROJECT_DIR$/SpringMVC-ProjectManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jd-ticketing-project-mvc-serik.iml" filepath="$PROJECT_DIR$/jd-ticketing-project-mvc-serik.iml" />
     </modules>
   </component>
 </project>

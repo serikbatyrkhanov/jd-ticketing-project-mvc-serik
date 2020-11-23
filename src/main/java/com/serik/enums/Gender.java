@@ -1,4 +1,4 @@
-package com.cybertek.enums;
+package com.serik.enums;
 
 public enum Gender {
 
