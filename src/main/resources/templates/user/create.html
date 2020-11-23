@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="eng">
 
-<head th:replace="/fragments/head :: header"></head>
+<head th:replace="/fragments/head :: header"><title>User Create</title></head>
 
 <body>
 
@@ -117,10 +117,10 @@
 
                                             <div class="col-sm-6 col-md-6">
                                                 <div class="form-group">
-                                                    <label>Choose a Role</label>
+                                                    <label for="roleid">Choose a Role</label>
                                                     <select name="roleid" id="roleid" th:field="*{role}" class="custom-select" required="required">
                                                         <option th:value=" ''" th:text="Select"></option>
-                                                        <option th:each="role : ${}"
+                                                        <option th:each="role : ${roleList}" th:text="role.description"></option>
 
                                                     </select>
                                                 </div>
